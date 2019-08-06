@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="Reintegrar">
+    <meta name="keywords" content="Reintegrar, integrar, Ong Reintegrar, Ong ">
+    <meta name="author" content="Mídia9">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Reintegrar</title>
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="assets/plugins/ionicons/css/ionicons.min.css">
+    <!-- CSS Global -->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/ico/favicon1.ico">
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar_main" data-offset="80">
+
+    <div class="modal fade" id="modal_portfolio" tabindex="-1" role="dialog" aria-labelledby="modal_portfolio__heading">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modal_portfolio__heading"></h4>
+                </div>
+                <div class="modal-body">
+                    <img id="modal_portfolio__img" class="img-responsive" src="assets/img/1.jpg" alt="...">
+                    <p id="modal_portfolio__content"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbar_main">
+                <img src="assets/img/logo.png" class="logorei">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#section_banner">Bem Vindo</a>
+                    </li>
+                    <li><a href="#section_features">Sobre</a>
+                    </li>
+                    <li><a href="#section_portfolio">Imagens</a>
+                    </li>
+                    <li><a href="#section_pricing">Contribua</a>
+                    </li>
+                    <li><a href="#section_team">Time</a>
+                    </li>
+                    <li><a href="#section_news">Eventos</a>
+                    </li>
+                    <li><a href="#section_contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER
+      ================================================== -->
+    <section class="section_banner" id="section_banner">
+
+        <!-- Images -->
+        <div class="banner__carousel__img" data-images="assets/img/1.jpg, assets/img/2.jpg, assets/img/3.jpg">
+        </div>
+
+        <!-- Carousel -->
+        <div id="banner__carousel" class="banner__carousel carousel" data-ride="carousel">
+
+            <!-- Slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+
+                                <h1 class="h0 page-header text-white text-center animate-down animate-xs-step-0">
+                                    <j id="shadow1">Reintegrar</j>
+                                  </h1>
+                                <!-- <p class="page-subheader text-white-muted text-center animate-down animate-xs-step-1">
+                                      Creative one-page template set ideal for bussiness and personal use
+                                  </p> -->
+                                <div class="text-center">
+                                    <a href="#section_features" class="btn btn-primary animate-down animate-xs-step-2">
+                                        Saiba mais
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+
+                                <h1 class="h0 page-header text-white text-center animate-down animate-xs-step-0">
+                                  <j id="shadow1">Reintegrar</j>
+                                </h1>
+                                <div class="text-center">
+                                    <a href="#section_features" class="btn btn-primary animate-down animate-xs-step-2">
+                                        Saiba mais
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+
+                                <h1 class="h0 page-header text-white text-center animate-down animate-xs-step-0">
+                                    <j id="shadow1">Reintegrar</j>
+                                </h1>
+                                <div class="text-center">
+                                    <a href="#section_features" class="btn btn-primary animate-down animate-xs-step-2">
+                                        Saiba mais
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#banner__carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#banner__carousel" data-slide-to="1"></li>
+                <li data-target="#banner__carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#banner__carousel" role="button" data-slide="prev">
+                <span class="ion-android-arrow-back" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#banner__carousel" role="button" data-slide="next">
+                <span class="ion-android-arrow-forward" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="section_about" id="section_about">
+        <div class="container">
+            <div class="row row_centered">
+                <div class="col-sm-6 col-sm-push-6">
+
+                    <h2 class="page-header">
+                <span>Quem somos</span>
+              </h2>
+
+                    <p>
+                        O Reintegrar é uma organização não governamental que atua em Fortaleza-Ce na região do grande Jangurussu, conjunto São Cristovão. Promove o desenvolvimento integral do ser humano, através do atendimento as crianças, adolescentes e jovens em situação de risco e vulnerabilidade social, apoia a capacitação profissional das famílias da comunidade, atuando nas áreas educacionais, esportiva, culturais, saúde, comportamento e capacitação de agentes de desenvolvimento.
+                    </p>
+                    <p>
+                        Atualmente atende cerca de 350 crianças, adolescentes e jovens na faixa etária de 3 à 22 anos representantes de aproximadamente 200 famílias que são beneficiadas com ações de quatro projetos, onde por meio de oficinas desenvolvem o conhecimento educacional, a pratica de esportes, a cultura, geração de renda e lazer.
+                    </p>
+
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+
+                    <div class="about__img">
+                        <img src="assets/img/4.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- FEATURES
+      ================================================== -->
+    <section class="section_features" id="section_features">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="features__item animate-sm-step-0" data-animate="animate-up">
+                        <div class="features__item__icon">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <h3 class="features__item__heading">
+                  Visao
+                </h3>
+                        <div class="features__item__body">
+                            Ser uma organização reconhecida e de referência na promoção do desenvolvimento às crianças, adolescentes e jovens, bem como suas famílias e comunidades nos aspectos bio-psico-sócio-cultural.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="features__item animate-sm-step-1" data-animate="animate-up">
+                        <div class="features__item__icon">
+                            <i class="fa fa-flag"></i>
+                        </div>
+                        <h3 class="features__item__heading">
+                  Missao 
+                </h3>
+                        <div class="features__item__body">
+                            Contribuir com o desenvolvimento integral das crianças, adolescentes e jovens em situação de risco e vulnerabilidade social, através de ações fundamentadas nos princípios cristãos, em áreas de pobreza.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="features__item animate-sm-step-2" data-animate="animate-up">
+                        <div class="features__item__icon">
+                            <i class="fa fa-anchor"></i>
+                        </div>
+                        <h3 class="features__item__heading">
+                  Valores
+                </h3>
+                        <div class="features__item__body">
+                            Éticos cristãos, unidade, fraternidade, solidariedade, compromisso com os pobres, abordagens sistêmicas (contextualização), credibilidade, sustentabilidade, valorização de parcerias e compromisso com o Reino de Deus.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- imagens
+      ================================================== -->
+    <section class="section_portfolio" id="section_portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__img">
+                            <img src="assets/img/4.jpg" class="img-responsive" alt="...">
+                            <div class="portfolio__item__img__mask">
+                                <div class="text-center">
+                                    <a href="#modal_portfolio" class="btn btn-primary" role="button" data-toggle="modal" data-img="assets/img/8.jpg" >
+                        Veja:
+                      </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-lg-4">
+
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__img">
+                            <img src="assets/img/5.jpg" class="img-responsive" alt="...">
+                            <div class="portfolio__item__img__mask">
+                                <div class="text-center">
+                                    <a href="#modal_portfolio" class="btn btn-primary" role="button" data-toggle="modal" data-img="assets/img/8.jpg" >
+                        Veja:
+                      </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-lg-4">
+
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__img">
+                            <img src="assets/img/6.jpg" class="img-responsive" alt="...">
+                            <div class="portfolio__item__img__mask">
+                                <div class="text-center">
+                                    <a href="#modal_portfolio" class="btn btn-primary" role="button" data-toggle="modal" data-img="assets/img/8.jpg" >
+                        Veja:
+                      </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-lg-4">
+
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__img">
+                            <img src="assets/img/7.jpg" class="img-responsive" alt="...">
+                            <div class="portfolio__item__img__mask">
+                                <div class="text-center">
+                                    <a href="#modal_portfolio" class="btn btn-primary" role="button" data-toggle="modal" data-img="assets/img/8.jpg" >
+                        Veja:
+                      </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-lg-4">
+
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__img">
+                            <img src="assets/img/8.jpg" class="img-responsive" alt="...">
+                            <div class="portfolio__item__img__mask">
+                                <div class="text-center">
+                                    <a href="#modal_portfolio" class="btn btn-primary" role="button" data-toggle="modal" data-img="assets/img/8.jpg" >
+                        Veja:
+                      </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-lg-4">
+
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__img">
+                            <img src="assets/img/9.jpg" class="img-responsive" alt="...">
+                            <div class="portfolio__item__img__mask">
+                                <div class="text-center">
+                                    <a href="#modal_portfolio" class="btn btn-primary" role="button" data-toggle="modal" data-img="assets/img/9.jpg">
+                        VejaS:
+                      </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_pricing" id="section_pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <h2 class="page-header text-center">
+               seja um parceiro
+              </h2>
+
+
+                </div>
+            </div>
+            <!-- / .row -->
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <div class="pricing__item animate-sm-step-0" data-animate="animate-up">
+                        <h3 class="pricing__item__heading">
+                  Orando:
+                </h3>
+                        <div class="pricing__item__price">
+                            <!-- $10<small> / lic.</small> -->
+                        </div>
+                        <!-- <ul class="pricing__item__features">
+                            <li>Lorem ipsum dolor sit amet</li>
+                        </ul> -->
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="pricing__item animate-sm-step-1" data-animate="animate-up">
+                        <h3 class="pricing__item__heading">
+                  Contribuindo:
+                </h3>
+                        <div class="pricing__item__price">
+                            R$10<small></small>
+                        </div>
+                        <!-- <ul class="pricing__item__features">
+                              <li>Lorem ipsum dolor sit amet</li>
+                              <li>Cum quo blanditiis cumque</li>
+                              <li>Ab laboriosam odio autem voluptatibus, voluptate dolorem</li>
+                          </ul> -->
+                        <a href="#section_contact" class="btn btn-block btn-primary">
+                  Clique aqui
+                </a>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="pricing__item animate-sm-step-2" data-animate="animate-up">
+                        <h3 class="pricing__item__heading">
+                  Servindo
+                </h3>
+                        <div class="pricing__item__price">
+                            <!-- $100<small> / lic.</small> -->
+                        </div>
+                        <!-- <ul class="pricing__item__features">
+                              <li>Lorem ipsum dolor sit amet</li>
+                              <li>Cum quo blanditiis cumque</li>
+                              <li>Ab laboriosam odio autem voluptatibus, voluptate dolorem</li>
+                          </ul> -->
+                        <a href="#section_contact" class="btn btn-block btn-primary">
+                  Clique aqui
+                </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM
+      ================================================== -->
+    <section class="section_team section_alt" id="section_team">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <h2 class="page-header text-center">
+                Nosso time:
+              </h2>
+
+                    <p class="page-subheader text-center">
+                        Venha fazer parte você também.
+                    </p>
+
+                </div>
+            </div>
+            <!-- / .row -->
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <div class="team__item animate-sm-step-0" data-animate="animate-up">
+                        <div class="team__item__img">
+                            <img src="assets/img/user_1.jpg" class="img-responsive" alt="...">
+                        </div>
+                        <div class="team__item__footer">
+                            <h3 class="team__item__footer__heading">
+                    Judy Doe <small>/ Designer</small>
+                  </h3>
+                            <div class="team__item__footer__content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aliquam omnis.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="team__item animate-sm-step-1" data-animate="animate-up">
+                        <div class="team__item__img">
+                            <img src="assets/img/user_2.jpg" class="img-responsive" alt="...">
+                        </div>
+                        <div class="team__item__footer">
+                            <h3 class="team__item__footer__heading">
+                    Richard Roe <small>/ CEO</small>
+                  </h3>
+                            <div class="team__item__footer__content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aliquam omnis.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="team__item animate-sm-step-2" data-animate="animate-up">
+                        <div class="team__item__img">
+                            <img src="assets/img/user_3.jpg" class="img-responsive" alt="...">
+                        </div>
+                        <div class="team__item__footer">
+                            <h3 class="team__item__footer__heading">
+                    John Doe <small>/ Front-end</small>
+                  </h3>
+                            <div class="team__item__footer__content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aliquam omnis.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NEWS
+      ================================================== -->
+    <section class="section_news" id="section_news">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <h2 class="page-header text-center">
+                        <span>EVENTOS</span>
+                    </h2>
+
+                    <p class="page-subheader text-center">
+                        Venha nos conhecer
+                    </p>
+
+                </div>
+            </div>
+            <!-- / .row -->
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <!-- <a href="" class="news__item animate-sm-step-0" data-animate="animate-up"> -->
+                    <div class="news__item__img">
+                        <img src="assets/img/evento1.jpg" class="img-responsive" alt="...">
+                        <time datetime="2017-01-12" class="news__item__img__date">
+                            Jan <span>12</span>
+                        </time>
+                    </div>
+                    <div class="news__item__footer">
+                        <h3 class="news__item__footer__heading">
+                    Lorem ipsum dolor sit
+                  </h3>
+                        <div class="news__item__footer__content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aliquam omnis.
+                        </div>
+                    </div>
+                    </a>
+                    <!-- / .news__item -->
+
+                </div>
+                <div class="col-sm-4">
+
+                    <!-- <a href="" class="news__item animate-sm-step-1" data-animate="animate-up"> -->
+                    <div class="news__item__img">
+                        <img src="assets/img/evento2.jpg" class="img-responsive" alt="...">
+                        <time datetime="2017-02-17" class="news__item__img__date">
+                            Feb <span>17</span>
+                        </time>
+                    </div>
+                    <div class="news__item__footer">
+                        <h3 class="news__item__footer__heading">
+                    Lorem ipsum dolor sit
+                  </h3>
+                        <div class="news__item__footer__content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aliquam omnis.
+                        </div>
+                    </div>
+                    </a>
+                    <!-- / .news__item -->
+
+                </div>
+                <div class="col-sm-4">
+
+                    <!-- <a href="" class="news__item animate-sm-step-2" data-animate="animate-up"> -->
+                    <div class="news__item__img">
+                        <img src="assets/img/evento3.jpg" class="img-responsive" alt="...">
+                        <time datetime="2017-02-25" class="news__item__img__date">
+                            Feb <span>25</span>
+                        </time>
+                    </div>
+                    <div class="news__item__footer">
+                        <h3 class="news__item__footer__heading">
+                    Lorem ipsum dolor sit
+                  </h3>
+                        <div class="news__item__footer__content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aliquam omnis.
+                        </div>
+                    </div>
+                    </a>
+                    <!-- / .news__item -->
+
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+
+    <!-- CONTACT
+      ================================================== -->
+    <section class="section_contact" id="section_contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <h2 class="page-header text-center">
+                Entre em contato com a gente
+              </h2>
+
+                    <p class="page-subheader text-white-muted text-center">
+                        Venha fazer parte você também.
+                    </p>
+
+                </div>
+            </div>
+            <!-- / .row -->
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="contact__container">
+                        <div class="row">
+                            <div class="col-sm-8">
+
+                                <!-- Form -->
+                                <form class="contact__container__form" id="form_sendemail">
+
+                                    <!-- Header -->
+                                    <div class="form-group">
+                                        <h3>Mensagem</h3>
+                                    </div>
+
+                                    <!-- Alert message -->
+                                    <div class="alert" id="form_message" role="alert"></div>
+
+                                    <!-- Name -->
+                                    <div class="form-group">
+                                        <label for="name" class="sr-only">Name *</label>
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <!-- Email -->
+                                    <div class="form-group">
+                                        <label for="email" class="sr-only">Endreço de Email *</label>
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Seu Email">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <!-- Message -->
+                                    <div class="form-group">
+                                        <label for="message" class="sr-only">Mensagem *</label>
+                                        <textarea name="message" class="form-control" id="message" placeholder="Escreva sua mensagem"></textarea>
+                                        <span class="help-block"></span>
+                                    </div>
+
+                                    <!-- Submit -->
+                                    <button type="submit" class="btn btn-primary">
+                                        Enviar
+                                    </button>
+
+                                </form>
+
+                            </div>
+                            <div class="col-sm-4">
+
+                                <ul class="contact__container__info">
+                                    <li>
+                                        <h3>Contato</h3>
+                                    </li>
+                                    <li>
+                                        <i class="ion-android-pin"></i>
+                                        <p>
+                                            Avenida Bulevar 1, 310</br>Fortaleza-CE
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <i class="ion-android-call"></i>
+                                        <p>
+                                            <j>(85) 9-8833-0249</j>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <i class="ion-android-mail"></i>
+                                        <p>
+                                            <a href="mailto:Br449reintegrarpeniel@gmail.com">br449reintegrarpeniel@gmail.com</a>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!-- / .row -->
+                    </div>
+
+                </div>
+            </div>
+            <!-- / .row -->
+        </div>
+        <!-- / .container -->
+    </section>
+
+    <section style="padding: 0;background-color: #141313;">
+        <div class="container" style="padding: 0">
+            <div class="row text-center" style="padding: 0">
+                <div class="col-lg-12 hvr-wobble-vertical">
+                    <a href="http://agenciamidia9.com.br/" target="_blank"><img src="http://cdn.marketingmidia9.com.br/logo-midia9.svg" style="width:216px; margin-top: 5px; margin-bottom: 5px;"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JAVASCRIPT
+      ================================================== -->
+
+    <!-- JS Global -->
+    <script src="assets/js/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="../../../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- JS Plugins -->
+    <script src="assets/plugins/smoothscroll/smoothscroll.min.js"></script>
+    <script src="assets/plugins/backstretch/jquery.backstretch.min.js"></script>
+    <script src="assets/plugins/countTo/jquery.countTo.js"></script>
+    <script src="assets/plugins/contact-form/contact.js"></script>
+    <script src="assets/plugins/waypoints/jquery.waypoints.min.js"></script>
+
+    <!-- JS Custom -->
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
